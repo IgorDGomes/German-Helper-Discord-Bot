@@ -21,7 +21,7 @@ const iyoutube = [
 
 const iyoutubeEmbed = new EmbedBuilder()
 	.setColor(0x0099FF)
-	.setTitle('**List of Youtube channels for Intermediate**')
+	.setTitle('**List of Youtube channels for Intermediates**')
     .setTimestamp()
     .addFields({ name: '\u200B', value: '\u200B' });
 
@@ -37,7 +37,7 @@ module.exports = {
 	cooldown: 5,
     data: new SlashCommandBuilder()
         .setName('iyoutube')
-        .setDescription('List of Youtube channels for Intermediate.'),
+        .setDescription('List of Youtube channels for Intermediates.'),
 
     async execute(interaction) {
         await interaction.reply({ embeds: [iyoutubeEmbed] })

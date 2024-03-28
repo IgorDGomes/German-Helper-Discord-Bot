@@ -1,5 +1,6 @@
 const { SlashCommandBuilder, EmbedBuilder } = require('discord.js')
 
+
 const helpEmbed = new EmbedBuilder()
 	.setColor(0x0099FF)
 	.setTitle('**Deutsch Helfer Commands**')
@@ -7,22 +8,22 @@ const helpEmbed = new EmbedBuilder()
     .setTimestamp()
 	.addFields(
 		{ name: '\u200B', value: '\u200B' },
-		{ name: '**:flag_de: General**', value: '`/ping`, `/help`, `/artists`, `/watch`, `/read`, `/apps`' },
+		{ name: '**:flag_de: General**', value: '`/ping`, `/help`, `/artists`, `/watch`, `/read`, `/apps`, `/jokes`' },
         
         // Beginner resources
         
-		{ name: '**:thinking: Beginner**', value: '`/byoutube`, `/bpodcasts`'  },
+		{ name: '**:thinking: Beginner**', value: '`/byoutube`, `/bpodcasts`, `btext`'  },
         
         // Intermediate resources
         
-		{ name: '**:sunglasses: Intermediate**', value: '`/iyoutube`, `/ipodcasts`'  },
+		{ name: '**:sunglasses: Intermediate**', value: '`/iyoutube`, `/ipodcasts`, `itext`'  },
         
         // Advanced resources
         
-		{ name: '**:ninja: Advanced**', value: '`/...`'  },
+		{ name: '**:ninja: Advanced**', value: '`/ayoutube`, `/apodcasts`, `atext`'  },
         
         
-		{ name: '**:gear: Other**', value: '`/something`' },
+		{ name: '**:gear: Other**', value: '`/creator`' },
 		{ name: '\u200B', value: '\u200B' },
 	)
 

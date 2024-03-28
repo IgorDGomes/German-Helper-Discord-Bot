@@ -21,7 +21,7 @@ const byoutube = [
 
 const byoutubeEmbed = new EmbedBuilder()
 	.setColor(0x0099FF)
-	.setTitle('**List of Youtube channels**')
+	.setTitle('**List of Youtube channels for Beginners**')
     .setTimestamp()
     .addFields({ name: '\u200B', value: '\u200B' });
 
@@ -37,7 +37,7 @@ module.exports = {
 	cooldown: 5,
     data: new SlashCommandBuilder()
         .setName('byoutube')
-        .setDescription('List of Youtube channels.'),
+        .setDescription('List of Youtube channels for Beginners.'),
 
     async execute(interaction) {
         await interaction.reply({ embeds: [byoutubeEmbed] })
