@@ -8,7 +8,7 @@ const helpEmbed = new EmbedBuilder()
     .setTimestamp()
 	.addFields(
 		{ name: '\u200B', value: '\u200B' },
-		{ name: '**:flag_de: General**', value: '`/ping`, `/help`, `/artists`, `/watch`, `/read`, `/apps`, `/jokes`' },
+		{ name: '**:flag_de: General**', value: '`/ping`, `/help`, `/artists`, `/watch`, `/read`, `/apps`, `/jokes`, `/dailyword`' },
         
         // Beginner resources
         

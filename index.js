@@ -220,8 +220,8 @@ const iapps = new EmbedBuilder()
 */
 
 client.on(Events.InteractionCreate, async interaction => {
-    if (interaction.isStringSelectMenu()) {
-        const selected = interaction.values[0]
+    // if (interaction.isStringSelectMenu()) {
+    //     const selected = interaction.values[0]
         // switch (selected) {
         //     // Beginner
 
@@ -252,7 +252,7 @@ client.on(Events.InteractionCreate, async interaction => {
         //     default:
         //         break;
         // }
-    }
+    // }
 
     if (interaction.isChatInputCommand()) {
         const command = interaction.client.commands.get(interaction.commandName)

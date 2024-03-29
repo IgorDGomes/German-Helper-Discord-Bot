@@ -46,8 +46,8 @@ const random = () => {
 module.exports = {
 	cooldown: 5,
     data: new SlashCommandBuilder()
-        .setName('itext')
-        .setDescription('Gives a random text for Intermediates.'),
+        .setName('dailyword')
+        .setDescription('Gives a random word.'),
 
     async execute(interaction) {
         const randomIndex = random()
@@ -55,7 +55,7 @@ module.exports = {
 
         const itextEmbed = new EmbedBuilder()
             .setColor(0x0099FF)
-            .setTitle('**Gives a random text for Intermediates**')
+            .setTitle('**Gives a random word**')
             .setTimestamp()
             .addFields(
                 { name: '\u200B', value: '\u200B' },
