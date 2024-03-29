@@ -24,9 +24,20 @@
 Deutsch Helfer is a Discord bot designed to help users in learning the German language directly within their Discord servers, aiming to improve their skills in German. Deutsch Helfer provide texts in different scenarios with translation, make jokes in German and have recommendations about youtube channels, podcasts, apps, movies, series, newspapers and artists. This way making your reading better, therefore your understanding of the language, is suitable for learners of all levels, from beginners to advanced.
 
 
-## Note
+## Important
 
-Deutsch Helfer was created for studying purposes, so that i could improve my Javascript and German.
+Deutsch Helfer is a customizable bot that can be used to learn any language you wish. You only need to change the array of objects inside of each command to match the language you want to learn.
+
+Tip: It's possible to ask an AI to create an array ready to use.
+
+
+## Upcoming Features
+
+- Quiz command
+
+- Daily words command
+
+- Deutsch Helfer Website
 
 
 ## Getting Started
@@ -56,17 +67,6 @@ To start using Deutsch Helfer in your Discord server, follow these steps:
     `node deploy-commands.js`
 
 
-## Upcoming Features
+## Note
 
-- Quiz command
-
-- Daily words command
-
-- Deutsch Helfer Website
-
-
-## Important
-
-Deutsch Helfer is a customizable bot that can be used to learn any language you wish. You only need to change the array of objects inside of each command to match the language you want to learn.
-
-Tip: It's possible to ask an AI to create an array ready to use.
+Deutsch Helfer was created for studying purposes, so that i could improve my Javascript and German.
