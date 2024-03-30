@@ -1,6 +1,6 @@
 <h1 align='center'>
     <br>
-    <a href='https://github.com/IgorDGomes/German-Helper-Discord-Bot' /><img src='https://i.imgur.com/gm63Pzj.jpeg' alt='German Guru Cat' width='300'>
+    <a href='https://github.com/IgorDGomes/German-Helper-Discord-Bot' /><img src='https://i.imgur.com/gm63Pzj.jpeg' alt='German Guru Cat' width='300'></a>
     <br>
     <span>German-Helper-Discord-Bot</span>
     <br>
@@ -9,13 +9,13 @@
 <div align='center'>
     <a href="#overview">Overview</a>
     •
-    <a href="#note">Note</a>
-    •
-    <a href="#getting-started">Getting Started</a>
+    <a href="#important">Important</a>
     •
     <a href="#upcoming-features">Upcoming Features</a>
     •
-    <a href="#important">Important</a>
+    <a href="#getting-started">Getting Started</a>
+    •
+    <a href="#note">Note</a>
 </div>
 
 
@@ -36,8 +36,6 @@ Tip: It's possible to ask an AI to create an array ready to use.
 - Quiz command
 
 - Daily words command
-
-- Deutsch Helfer Website
 
 
 ## Getting Started
@@ -66,6 +64,9 @@ To start using Deutsch Helfer in your Discord server, follow these steps:
 
     `node deploy-commands.js`
 
+7. Enter the website and follow the next steps:
+
+    [My Bots](https://my-bots.netlify.app/)
 
 ## Note
 
